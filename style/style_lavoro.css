@@ -1,0 +1,97 @@
+#{
+    padding: 0em;
+    margin: 0em;
+}
+
+html {
+    background-image: url("../images/sfondo.jpg");
+    background-color: #000;
+    width: 100%;
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+    background-color: #FFF;
+    font-family: "Comic sans MS", cursive, sans-serif;
+    border: 1px solid #000;
+}
+
+#logo {
+    float: left;
+    width: 15%;
+}
+
+#header {
+    padding: 1cm;
+    text-align: center;
+    min-height: 9en;
+}
+
+#header h1 {
+    color: #BD091B;
+    font-size: 3.5en;
+}
+
+#header h2 {
+    font-size: 1.5en;
+}
+
+#percorso {
+    background-color: #BD091B;
+    color: white;
+    padding: 0.5en 0 0.5en 1.0en;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#menu {
+    float: left;
+    width 20%;
+    padding: 0.8en;
+    font-size: 1.1en;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    padding-top: 0.5en;
+    padding-bottom: 5en;
+}
+/*
+div#header {
+    padding: 1.0cm;
+    text-align: right;
+}
+*/
+#rightSidebar {
+    float: right;
+    width: 20%;
+    font-size: 0.7en;
+    padding: 0.5en;
+}
+
+#contenutoPagina {
+    width: 50%;
+    margin-left: 20%;
+    margin: auto;
+    padding: 1.5en 1.0en 3.0en 2en;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+#footer {
+    text-align: center;
+}
+
+#imgValidCode {
+    float: left;
+}
+
+#imgIndex {
+    width: 70%;
+}
+
